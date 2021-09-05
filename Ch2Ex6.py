@@ -13,11 +13,6 @@ State sales tax: $0.45
 County sales tax: $0.22
 >>> print("Total sales tax: $", format(total_tax, '.2f'), sep = "" )
 Total sales tax: $0.67
->>> print("Total: $", format(sales_tax, '.2f'), sep = "" )
-Traceback (most recent call last):
-  File "<pyshell#8>", line 1, in <module>
-    print("Total: $", format(sales_tax, '.2f'), sep = "" )
-NameError: name 'sales_tax' is not defined
 >>> print("Total: $", format(sales_total, '.2f'), sep = "" )
 Total: $9.57
 >>> 
